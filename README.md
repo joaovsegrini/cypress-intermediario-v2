@@ -1,34 +1,56 @@
-# Testes automatizados com Cypress - Intermediário
+🧪 Cypress – Testes Automatizados (GUI & API)
 
-👋 Seja bem-vinda(o)!
+Este repositório contém exemplos e implementações de testes automatizados utilizando Cypress, cobrindo cenários de interface gráfica e testes de API, com foco em organização, boas práticas e reutilização de código.
 
-É muito bom tê-la(o) aqui. Tenho certeza que você vai adorar este curso. ❤️
+O objetivo do projeto é demonstrar uma estrutura de testes escalável, com separação por camadas e uso de comandos customizados.
 
-## O que você vai aprender
+🚀 Tecnologias utilizadas
 
-Durante o curso de testes automatizados com Cypress (intermediário) você vai aprender:
+Cypress
 
-- Como configurar o ambiente local de desenvolvimento
-- Como instalar e configurar o Cypress
-- Como criar testes automatizados de interface gráfica de usuário
-- Como criar testes automatizados de API (com _feedback_ visual no navegador)
-- Como testar APIs que necessitam um _token_ de acesso
-- Como criar testes otimizados e direto-ao-ponto
-- Como salvar a sessão do usuário no navegador para posterior restauração
-- Como validar se a sessão do usuário ainda é válida e como lidar com isso quando a mesma é invalidada
-- Como fazer a limpeza e criação da massa de dados antes do teste começar
-- Como proteger dados sensíveis, tais como senhas e _tokens_ de acesso
-- Como organizar os testes e comandos customizados em diferentes "camadas" (_API, CLI, GUI_)
-- Como estruturar os testes pensando em pré-condições, ações e resultados esperados
-- Como gerar dados aleatórios para uso nos testes automatizados
-- Como habilitar funcionalidades experimentais do Cypress
-- Como executar comandos à nível de sistema operacional
-- E como testar a leitura de arquivos
+JavaScript
 
-## Vamos começar?
+Node.js
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Testes E2E
 
-___
+Testes de API
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+📂 Estrutura do projeto
+
+O projeto está organizado pensando em clareza e manutenção dos testes:
+
+cypress/e2e → Cenários de testes end-to-end
+
+cypress/support → Commands e configurações globais
+
+cypress/fixtures → Massa de dados para testes
+
+cypress/api → Abstrações e requisições de API
+
+cypress/gui → Interações com interface gráfica
+
+
+✅ O que você vai encontrar neste repositório
+
+Testes automatizados de interface (GUI)
+
+Testes automatizados de API
+
+Uso de autenticação via token
+
+Persistência de sessão do usuário
+
+Geração de dados dinâmicos
+
+Proteção de variáveis sensíveis
+
+Organização dos testes em camadas (API, CLI e GUI)
+
+Execução de comandos em nível de sistema operacional
+
+Leitura e manipulação de arquivos durante os testes
+
+📌 Observações
+
+Este repositório é voltado para estudos e demonstrações de práticas modernas de automação de testes utilizando Cypress.
